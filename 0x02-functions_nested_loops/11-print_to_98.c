@@ -14,11 +14,12 @@ void print_to_98(int n)
 		{
 			if (i != 98)
 			{
-				_putschar(48 +n);
+				_putchar(48 + i);
 			}
-			else if (n == 98)
+			else if (i == 98)
 			{
-				_putschar(48 + n '\n');
+				_putchar(48 + i);
+				_putchar('\n');
 			}
 		}
 		else if (n >= 98)
@@ -27,7 +28,7 @@ void print_to_98(int n)
 			{
 				if (j != 98)
 				{
-					_putschar(48 + j);
+					_putchar(48 + j);
 				}
 				else if (j == 98)
 				{
